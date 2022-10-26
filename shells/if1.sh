@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo $0n
+echo "File name : $0"
+echo "Parameter Count : $#"
+echo "All paramrer : $@"
 if [ "$1" = ok ]; then
 	echo "lilpa"
 else
